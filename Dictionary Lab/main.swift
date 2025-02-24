@@ -97,17 +97,20 @@ print(" \n PROBLEM 2.4 : ITERATING THROUGH THE DICTIONARY \n")
  // "\n" just means to add a line.
  //Ignore yellow warning.
  
-
+for (key , value) in favoriteWords {
+    print(value + "\n")
+}
  
  
 print("\n PROBLEM 2.4.1 : WHAT HAPPENED IN 2.4?")
 //Print out what happened when you ran 2.4.
- 
+ print("The definitions of our dictionary favorite words, were printed with a spece between them.")
  
  
  print(" \n PROBLEM 2.5.0 : REMOVING ITEMS FROM DICTIONARY \n")
 // Use the built in dictionary method to remove all current items from your dictionary that you created in Problem 2.0. Print it out and observe the results.
-
+favoriteWords.removeAll()
+print(favoriteWords)
  
  
 print("\n PROBLEM 2.5.1 : WHAT HAPPENED TO 2.5.0? \n")
